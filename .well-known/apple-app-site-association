@@ -1,0 +1,80 @@
+{
+	"webcredentials": {
+		"apps": [
+			"NHF2NHE239.com.tescomobile.iphone",
+			"NHF2NHE239.com.tescomobile.iphone.int1",
+			"NHF2NHE239.com.tescomobile.iphone.staging",
+			"NHF2NHE239.com.tescomobile.iphone.staging2"
+		]
+	},
+	"applinks": {
+		"apps": [
+
+		],
+		"details": [{
+				"appID": "NHF2NHE239.com.tescomobile.iphone",
+				"paths": [
+					"*"
+				],
+				"components": [{
+						"#": "no_universal_links",
+						"exclude": true,
+						"comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+					},
+					{
+						"/": "/app/paym/ios",
+						"comment": "Matches any URL whose path starts with /app"
+					}
+				]
+			},
+			{
+				"appID": "NHF2NHE239.com.tescomobile.iphone.int1",
+				"paths": [
+					"*"
+				],
+				"components": [{
+						"#": "no_universal_links",
+						"exclude": true,
+						"comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+					},
+					{
+						"/": "/app/paym/ios",
+						"comment": "Matches any URL whose path starts with /app"
+					}
+				]
+			},
+			{
+				"appID": "NHF2NHE239.com.tescomobile.iphone.staging",
+				"paths": [
+					"*"
+				],
+				"components": [{
+						"#": "no_universal_links",
+						"exclude": true,
+						"comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+					},
+					{
+						"/": "/app/paym/ios",
+						"comment": "Matches any URL whose path starts with /app"
+					}
+				]
+			},
+			{
+				"appID": "NHF2NHE239.com.tescomobile.iphone.staging2",
+				"paths": [
+					"*"
+				],
+				"components": [{
+						"#": "no_universal_links",
+						"exclude": true,
+						"comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+					},
+					{
+						"/": "/app/paym/ios",
+						"comment": "Matches any URL whose path starts with /app"
+					}
+				]
+			}
+		]
+	}
+}
